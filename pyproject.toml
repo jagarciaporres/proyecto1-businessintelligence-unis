@@ -1,0 +1,20 @@
+[project]
+name = "proyecto1-businessintelligence-unis"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "jagarcia-impact", email = "jagarcia@impact-healthcare.net" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "numpy>=2.5.3",
+    "pandas>=3.0.6",
+]
+
+[project.scripts]
+proyecto1-businessintelligence-unis = "proyecto1_businessintelligence_unis:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
